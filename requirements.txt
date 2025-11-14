@@ -1,0 +1,30 @@
+# Requirements for News Retrieval System - Task 1
+# Compatible with Google Colab and Python 3.10+
+
+# Core RSS and tokenization
+feedparser==6.0.11
+tiktoken==0.8.0
+
+# Embeddings and transformers
+sentence-transformers==3.3.1
+transformers==4.46.3
+torch==2.5.1
+
+# Vector database
+chromadb==0.5.23
+
+# LangChain orchestration
+langchain==0.3.25
+langchain-community==0.3.25
+
+# Datasets
+datasets==3.1.0
+
+# Data manipulation and visualization
+pandas==2.2.3
+numpy==1.26.4
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Machine learning
+scikit-learn==1.6.0
